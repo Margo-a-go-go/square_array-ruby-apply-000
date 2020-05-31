@@ -1,6 +1,8 @@
 def square_array(numbers)
-return numbers.each do |number|
-   number**2
+i = 0
+numbers.each do |number|
+   numbers[i] = number**2
+   i = i + 1
  end
 end
 
